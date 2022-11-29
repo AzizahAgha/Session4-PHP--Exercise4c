@@ -87,7 +87,7 @@ if(isset($_POST['submit'])){
   
 
     <div class="wrapper">
-    <p style="color:red;"><?php echo  $_SESSION['msg1'];?><?php $_SESSION['msg1']="";?></p>
+<!--  <p style="color:red;"><?php echo  $_SESSION['msg1'];?><?php $_SESSION['msg1']="";?></p> -->
         <h2 class="heading">Reset Password</h2>
         <div class="box">
         <p class="para">Please fill out this form to reset your password.</p>
