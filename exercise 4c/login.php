@@ -17,7 +17,7 @@ if(isset($_POST["email"])){
     if(empty(trim($_POST["password"]))){
         $password_err = "Please enter your password.";
     } else{
-        $password = trim($_POST["password"]);
+        $password = md5($_POST["password"]);
     }
 
     // Include config file
